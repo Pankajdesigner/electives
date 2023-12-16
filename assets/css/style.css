@@ -313,6 +313,14 @@ ul{
     width: calc(33.33333% - 17px);
     background: var(--white); 
     border-radius: 8px;
+    text-decoration: none;
+    transition: 0.1s;
+    color: black;
+}
+.ele-card:hover{
+    color: var(--black);
+    transition: 0.5s;
+    transform: scale(1.03);
 }
 
 .ele-card h4{
@@ -604,6 +612,12 @@ footer ul li a::before{
 .filter-list .btn.active, .filter-list .btn:focus{
     background: #FFEC40;
     color: var(--black);
+}
+
+.ele-header-details{
+    background: var(--primary);
+    color: #fff;
+    padding: 100px 0;
 }
 
 @media (min-width: 1250px){
