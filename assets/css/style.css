@@ -23,9 +23,11 @@ header{
 }
 
 header img{
-    width: 280px;
+    width: 199px;
 }
-
+footer img{
+    width: 184px;
+}
 header li{
     list-style: none;
     display: inline;
@@ -191,6 +193,14 @@ ul{
     display: block;
     font-weight: 400;
 }
+.pro-details-std li span strong{
+    background: #e9eefc;
+    color: #000;
+    padding: 2px 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 500;
+}
 .project-and-skills{
     display: flex;
     padding-top: 30px;
@@ -317,6 +327,30 @@ ul{
     transition: 0.1s;
     color: black;
 }
+
+.careertrack{
+    width: calc(50% - 14px);
+    background: var(--white); 
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.1s;
+    color: black;
+}
+.careertrack h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px !important;
+}
+.numb-elec{
+    font-size: 13px;
+}
+.numb-elec span{
+    font-size: 13px;
+    font-weight: 400;
+    opacity: .8;
+    display: block;
+}
 .ele-card:hover{
     color: var(--black);
     transition: 0.5s;
@@ -336,6 +370,7 @@ ul{
     padding: 15px 15px;
     font-weight: 500;
     border-bottom: 1px solid var(--smoke);
+    padding-bottom: 30px;
 }
 
 .ele-card ul li{
@@ -366,10 +401,42 @@ select.form-select, .form-control {
 .logo-company{
     padding: 10px 0;
     text-align: center;
+    position: relative;
+    padding-top: 20px;
+   
 }
-
+.careertrack .logo-company img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-fit: contain;
+   
+}
+.careertrack  .logo-company{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
 .logo-company img{
     height: 55px;
+}
+.logo-company::after {
+    position: absolute;
+    left: 50%;
+    top: -1px;
+    content: 'Powered by';
+    background: var(--primary);
+    color: #fff;
+    font-size: 12px;
+    transform: translate(-50%, -50%);
+    padding: 2px 7px;
+    border-radius: 10px;
+}
+.logo-wp-multi{
+   object-fit: contain;
+    width: 20%;
+    height: 40px;
 }
 
 .enquiry{
@@ -819,6 +886,7 @@ footer ul li a::before{
     font-size: 23px;
     font-weight: 300;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 .stories-header img{
     width: 100%;
@@ -914,6 +982,39 @@ footer ul li a::before{
     color: var(--primary);
 }
 
+.app-screen {
+    position: relative;
+    padding-top: 20px;
+}
+.app-screen img{
+    box-shadow: 7px 7px 48px rgb(0 0 0 / 23%);
+    border-radius: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+.app-screen::before{
+    content: '';
+    position: absolute;
+    left: -17px;
+    top: 250px;
+    background: url(../images/pattern.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 28px;
+}
+.app-screen::after{
+    content: '';
+    position: absolute;
+    right: -17px;
+    top: 80px;
+    background: url(../images/pattern.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92px;
+    width: 28px;
+}
 
 
 
