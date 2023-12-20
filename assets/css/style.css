@@ -105,8 +105,8 @@ header li a{
     gap: 25px;
 }
 
-.logos-list{
-    width: 25%;
+.logos-list img{
+    width: 18%;
 }
 
 .why-choose-us{
@@ -194,8 +194,8 @@ ul{
     font-weight: 400;
 }
 .pro-details-std li span strong{
-    background: #e9eefc;
-    color: #000;
+    background: #2758df;
+    color: #fff;
     padding: 2px 8px;
     font-size: 14px;
     border-radius: 10px;
@@ -1023,5 +1023,534 @@ footer ul li a::before{
 @media (min-width: 1250px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1200px;
+    }
+}
+
+@media (max-width: 1250px){
+    .hero h2 {
+        font-size: 47px;
+    }
+    .std-card h4 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+    .std-card ul{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+    .pro-badge{
+        width: 134px;
+        margin-top: -52px;
+        font-size: 14px;
+    }
+    .smart-pro .pro-badge { 
+        width: 154px;
+    }
+    .std-name p { 
+        font-size: 13px; 
+    }
+    .pro-details-std li, .pro-details-std li span strong { 
+        font-size: 13px;
+    }
+    .skills span, .projects span{
+        padding: 5px 10px; 
+        font-size: 12px;
+    }
+    .ele-card h4 {
+        padding: 16px 8px;
+        font-size: 14px;
+    }
+    .logo-company img {
+        height: 44px;
+    }
+    .card-electives-wp {
+        padding: 20px;
+    }
+    .electives-list h5 , .filter h5{
+        padding: 15px;
+    }
+
+    footer .col-md-6:first-child{
+        width: 33.33333333%;
+    }
+    footer .col-md-6:last-child{
+        width: 66.66666667%;
+    }
+    .ele-skills .crs-skills span { 
+        font-size: 13px;
+    }
+    
+}
+
+@media (max-width: 991px){
+    .story-content ul li{
+        width: 100%;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .story-content h4 {
+        font-size: 21px;
+    }
+    .story-content h6 {
+        font-size: 18px;
+    }
+    .story-content p {
+        font-size: 13px;
+    }
+    .statistic-str .col-md-10.offset-1{
+        width: 100%;
+        margin: 0;
+    }
+    .cnt-str-stc h6 {
+        font-size: 16px;
+    }
+    .cnt-str-stc{
+        padding: 53px 31px;  
+    }
+    .cnt-str-stc p {
+        font-size: 14px;
+    }
+    .str-main-content p {
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 11px;
+    }
+    .str-main-content br{ 
+        display: block;
+        margin: 10px 0;
+    }
+    footer ul li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    footer ul li a{
+        font-size: 16px;
+    }
+    footer img {
+        width: 144px;
+    }
+    .hero h2 {
+        font-size: 31px;
+    }
+    .why-choose-us .col-md-6{
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+    .Electives-main{
+        flex-wrap: wrap;
+    }
+    .filter{
+        width: 100%;
+    }
+    .electives-list{
+        width: 100%;
+    }
+    .ele-card {
+        width: calc(50% - 13px);
+    }
+    .enquiry .col-md-5, .enquiry .col-md-7{
+        width: 100%;
+    }
+    .enquiry .col-md-7{
+        margin-top: 50px;
+    }
+    .ele-header-details h1 {
+        font-size: 30px;
+    }
+    .ele-header-details h5 {
+        font-weight: 400;
+        margin-bottom: 14px;
+        font-size: 15px;
+    }
+    .ele-header-details p {
+        font-weight: 300;
+        font-size: 13px;
+    }
+    .pt-logo {
+        width: 210px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .crs-name {
+        font-size: 16px;
+    }
+    .unita-span{
+        font-size: 13px;
+        width: 78px;  
+    }
+    .time-details { 
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .job-list h6 {
+        font-size: 15px;
+        margin-bottom: 2px;
+    }
+    .job-list {
+        font-size: 14px;
+        padding: 33px 16px;
+    }
+    .job-featured h3{
+        font-size: 21px;
+    }
+    .job-featured p {
+        font-size: 15px;
+    }
+    .job-featured img {
+        width: 120px;
+        margin-bottom: 5px;
+    }
+    .small-section-crs{
+    
+    }
+}
+
+@media (max-width: 768px){
+    header img {
+        width: 109px;
+    }
+    header .col-md-6{
+        width: 50% !important;
+    }
+    header {
+        padding: 15px 0;
+    }
+    .btn {
+        font-size: 13px;
+        padding: 9px 12px 
+    }
+    header .col-md-6:first-child{
+        width: 37% !important;
+    }
+    header .col-md-6:last-child{
+        width: 63% !important;
+    }
+    header li { 
+        margin-left: 11px;
+    }
+    header li a { 
+        font-size: 14px;
+        font-weight: 300;
+    }
+    header .row{
+        align-items: center;
+    }
+    footer .col-md-6:first-child {
+        width: 100%;
+    }
+    footer .col-md-6:last-child {
+        width: 100%;
+    }
+    footer ul li {
+        display: inline-block;
+        margin-left: 10px;
+        margin-left: 12px;
+    }
+    footer ul {
+        list-style: none;
+        font-size: 7px;
+        padding: 0;
+        padding-top: 10px;
+        border-top: 1px solid var(--smoke);
+        text-align: left;
+        margin-top: 30px;
+    }
+    footer ul li a {
+        font-size: 14px;
+        padding-left: 16px;
+    }
+    footer ul li a::before{
+        top: 4px;
+        width: 10px;
+        height: 10px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    .logos-list img {
+        width: 47%;
+    }
+    .logos-list{
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .name-and-profile {
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero{
+        padding: 80px 0;
+    }
+    .hero h2 {
+        font-size: 24px;
+        margin-bottom: 11px;
+    }
+    .splide{
+        margin-top: 30px;
+    }
+    .splide__arrow--prev{
+        left: 10px; 
+        transform: scale(0.8);
+        margin-top: -22px;
+    }
+    .splide__arrow--next{
+        transform: scale(0.8);
+        margin-top: -22px;
+        right: 10px 
+    }
+    .c-logos, .why-choose-us{
+        padding: 50px 0;
+    }
+    .title-black{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .std-card{
+        padding: 20px;
+    }
+    .std-card h4 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .std-card ul {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 32px;
+    }
+    .std-profile{
+        padding: 15px;
+    }
+    .pro-details-std{
+        flex-wrap: wrap;
+        border-bottom: 0;
+    }
+    .pro-details-std li{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .pro-details-std li span strong{
+        font-weight: 400;
+        margin-left: 5px;
+    }
+    .pro-badge { 
+        margin-top: -37px;
+    }
+    .project-and-skills{
+        flex-wrap: wrap;
+    }
+    .projects{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .internz-electives{
+        padding: 60px 0;
+    }
+    .title-white{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .filter-list{
+        border-bottom: 1px solid rgb(255 255 255 / 28%);
+    }
+    .filter h5{
+        font-size: 18px;
+    }
+    .electives-list h5{
+        font-size: 18px;
+    }
+    .ele-card {
+        width: 100%;
+    }
+    .enquiry{
+        padding: 60px 0;
+    }
+    .title-2 {
+        font-size: 18px;
+    }
+    .title-black.underline{
+        margin-bottom: 40px;
+    }
+    .enquiry ul li { 
+        font-size: 15px;
+        padding: 10px;
+        padding-left: 40px;
+    }
+    .enquiry ul li span{
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+        top: 11px;
+        line-height: 30px;
+    }
+    .enquiry ul li span::after{
+        top: 30px;
+        left: 15px;
+    }
+    .enquiry ul{
+        line-height: 31px;
+    }
+    .form-wp{
+        padding: 25px 20px;
+    }
+    .stories{
+        padding: 60px 0;
+    }
+    .desh-line{
+        margin-bottom: 30px;
+    }
+    .story-card{
+        margin-top: 0;
+    }
+    .story-content {
+        padding: 20px;
+    }
+    .story-content p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .str-footer {
+        padding-top: 25px;  
+        padding-bottom: 7px;
+    }
+    .ele-header-details{
+        padding: 80PX 0;
+    }
+    .ele-header-details h1 {
+        font-size: 24px;
+    }
+    .pt-logo{
+        margin-top: 30px;
+    }
+    .course-details{
+        padding: 60px 0;
+    }
+    .small-section-crs h4{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .skills span, .projects span{
+        margin-bottom: 0;
+    }
+    .small-section-crs {
+        margin-bottom: 30px;
+    }
+    .curr-list li{
+        margin-bottom: 15px;
+    }
+    .unita-span {
+        font-size: 13px;
+        width: 63px;
+        line-height: 25px;
+    }
+    .crs-name{
+        display: block;
+        line-height: 140%;
+        font-size: 13px;
+        margin-top: 2px;
+        margin-bottom: 8px;
+    }
+    .time-details {
+        float: right;
+        position: relative;
+        top: -73px;
+        font-size: 13px;
+    }
+    .time-details img {
+        position: relative;
+        right: 3px;
+        top: -1px;
+        width: 15px;
+    }
+    .lock-wp{
+        height: 248px;
+    }
+    .usecase .unita-span {
+        width: 26px;
+    }
+    .job-list{
+        margin-bottom: 15px;
+    }
+    .job-featured{
+        padding: 20px;
+    }
+    .job-featured img {
+        width: 90px;
+    }
+    .job-featured h3 {
+        font-size: 17px;
+    }
+    .job-featured p {
+        font-size: 13px;
+        line-height: 140%;
+    }
+    .app-screen{
+         overflow: hidden;
+    }
+    .app-screen img{
+        box-shadow: none;
+    }
+    .accordion-button{
+        padding: 10px;
+    }
+    .course-details{
+        padding-bottom: 0;
+    }
+    .stories-header p {
+        font-size: 15px;
+    }
+    .stories-header{
+        height: 400px;
+    }
+    .stories-header h1 {
+        font-size: 23px;
+    }
+    .cnt-str-stc{
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .str-main-content {
+        padding: 40px 0;
+    }
+    .str-main-content p{
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .str-main-content h5{
+        font-size: 20px; 
+        margin-bottom: 10px;
+        margin-top: 16px;
+    }
+    .str-main-content br{
+        display: none;
+    }
+    .str-main-content .img-fluid{
+        margin: 10px 0;
+    }
+    .ele-skills-hd.ele-header-details {
+        padding: 60px 0;
+    }
+    .ele-header-details.ele-skills-hd{
+        text-align: center;
+    }
+    .ele-header-details.ele-skills-hd h1 {
+        font-size: 21px;
+    }
+    .ele-header-details.ele-skills-hd .text-end{
+        text-align: center !important;
+    }
+    .ele-skills .skills.crs-skills{
+        padding: 0;
+        border: none;
+    }
+    .skills-list-ele{
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
